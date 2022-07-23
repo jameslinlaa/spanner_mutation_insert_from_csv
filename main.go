@@ -99,7 +99,7 @@ func main() {
 	ctx := context.Background()
 
 	// This database must exist.
-	databaseName := "projects/hub-james-argolis/instances/spanner-instance/databases/spanner-database"
+	databaseName := "projects/<PROJECT_ID>/instances/<INSTANCE_ID>/databases/<DATABASE_ID>"
 
 	client, err := spanner.NewClient(ctx, databaseName)
 	if err != nil {
