@@ -5,7 +5,7 @@ Run the program from a GCE VM or on-prem VM to get the E2E execution time.
 
 # Sample table and csv file
 1. Before run the sample code, please create the table first by the ddl command (users.ddl)
-2. users.csv is sample csv file for data importing
+2. users.csv is a sample csv file for data importing
 
 
 # Some Notes
